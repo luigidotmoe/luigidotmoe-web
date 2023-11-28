@@ -1,0 +1,16 @@
+{
+  "name": "milky-way",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^3.2.3",
+    "devicon": "^2.15.1"
+  }
+}
