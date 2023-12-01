@@ -1,7 +1,7 @@
 # luigidotmoe-web
 Source code of my personal portfolio.
 
-## Local development
+## Local Development
 Clone this repository to your local machine using Git.
 
 ```scheme
