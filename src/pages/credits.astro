@@ -1,25 +1,44 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 
 const pageTitle = "Credits";
 ---
+
 <Layout pageTitle={pageTitle}>
     <div class="gif">
-        <img width="300" height="259" alt="Grateful Doguri" src="/GratefulDoguri.webp"/>
+        <img
+            width="300"
+            height="259"
+            alt="Grateful Doguri"
+            src="/GratefulDoguri.webp"
+        />
     </div>
     <h2>My thanks to :</h2>
     <p>
         <ul>
-            <li><a href="https://www.instagram.com/doguri_official/">Doguri</a> - the portfolio mascot</li>
-            <li><a href="https://astro.build/">Astro 🚀</a> - the web framework</li>
-            <li><a href="https://tristentomczak.me/">Tristen Tomczak</a> - my portfolio is based on v1.0.0 of <a href="https://github.com/ttomczak3/Milky-Way">Milky-Way🌌</a></li>
-            <li><a href="https://openmoji.org/">OpenMoji</a> - emojis design </li>
+            <li>
+                <a href="https://instagram.com/doguri_official/">Doguri</a> - The cute raccoon
+            </li>
+            <li>
+                <a href="https://astro.build/">Astro 🚀</a> - The Web Framework
+            </li>
+            <li>
+                <a href="https://tristentomczak.me/">Tristen Tomczak</a> - My portfolio is based on v1.0.0 of <a href="https://github.com/ttomczak3/Milky-Way">Milky-Way🌌</a>
+            </li>
+            <li>
+                <a href="https://openmoji.org/">OpenMoji</a> - Some used emojis
+            </li>
         </ul>
     </p>
 </Layout>
 
 <style>
-ul {
-  list-style-type: "❤️ - ";
-}
+    a {
+        color: #f8647c;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: "❤️ - ";
+    }
 </style>

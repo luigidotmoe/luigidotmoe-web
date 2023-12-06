@@ -1,11 +1,13 @@
 ---
 const year = new Date().getFullYear();
 ---
+
 <footer>
     <div>
-        <small>&copy; {year} ⭐luigidotmoe⭐ - <a href="/credits/">Credits</a></small>
+        <small><span class="copyleft">&copy;</span> {year} - ⭐luigidotmoe⭐ - <a href="/credits/">Credits</a></small>
     </div>
 </footer>
+
 <style>
     div {
         margin: 4rem 0;
@@ -13,11 +15,15 @@ const year = new Date().getFullYear();
     }
 
     small {
-        font-family: 'Josefin Sans', sans-serif; 
+        font-family: "Josefin Sans", sans-serif;
     }
 
     small a {
         color: #375a7f;
         text-decoration: none;
+    }
+    .copyleft {
+        display: inline-block;
+        transform: rotateY(180deg);
     }
 </style>
