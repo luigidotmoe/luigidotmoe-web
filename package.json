@@ -1,16 +1,16 @@
 {
-  "name": "luigidotmoe-web",
-  "type": "module",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^4.0.3",
-    "devicon": "^2.15.1"
-  }
+    "name": "luigidotmoe-web",
+    "type": "module",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "astro": "^4.0.3",
+        "devicon": "^2.15.1"
+    }
 }

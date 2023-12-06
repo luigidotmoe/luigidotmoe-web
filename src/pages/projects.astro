@@ -1,19 +1,27 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+
 const pageTitle = "Projects";
 ---
+
 <Layout pageTitle={pageTitle}>
     <div class="gif">
-        <img width="300" height="259" alt="Error Doguri" src="/ErrorDoguri.webp"/>
+        <img
+            width="300"
+            height="259"
+            alt="Error Doguri"
+            src="/ErrorDoguri.webp"
+        />
     </div>
+
     <h2>My Projects</h2>
     <ul role="list" class="link-card-grid">
         <Card
-        href="https://github.com/luigidotmoe/luigidotmoe-web"
-        image="/dotmoe.webp"
-        title="luigi.moe"
-        body="The portfolio website that you are currently browsing."
+            href="https://github.com/luigidotmoe/luigidotmoe-web"
+            image="/dotmoe.webp"
+            title="luigi.moe"
+            body="The portfolio website that you are currently browsing."
         />
         <Card
             href="https://github.com/luigidotmoe/AIOMT"
@@ -28,6 +36,7 @@ const pageTitle = "Projects";
             body="[WIP] Collaborative School Project aiming to create an OpenClassroom-like website for our school."
         />
     </ul>
+
     <h2>Contributions</h2>
     <ul role="list" class="link-card-grid">
         <Card
