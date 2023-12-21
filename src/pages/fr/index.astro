@@ -1,0 +1,118 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const pageTitle = "Luigi";
+---
+<Layout pageTitle={pageTitle}>
+    <div class="gif">
+        <img width="300" height="259" alt="Space Doguri" src="/SpaceDoguri.webp"/>
+    </div>
+
+    <h4 style="color: red;">My portfolio is still under construction; some pages are not as polished as they should be, and some pages/features are not available yet. This message will disappear once I'm satisfied with its state. Please forgive a man lacking time 🙏</h4>
+
+    <h1>Luigi J.</h1>
+
+    <small>Web Developer</small>
+    <div class="socials">
+        <a href="https://github.com/luigidotmoe"><img width="50" height="50" src="/GitHub.svg" alt="GitHub" title="GitHub"></a>
+        <a href="https://linkedin.com/in/luigidotmoe"><img width="50" height="50" src="/LinkedIn.svg" alt="LinkedIn" title="LinkedIn"></a>    
+    </div>
+
+    <h2>About</h2>
+    <p>
+        I took my first steps into coding back in the late 2000s, fueled by a passion for creating new content for my favorite childhood 
+        games (Metin2, Minecraft, Dofus). This passion led me to explore various development community forums, 
+        and immersing myself in these online spaces ignited a curiosity about the underlying mechanisms that powered these forums. 
+        Consequently, years later, I embarked on a journey to become a Web Developer.
+    </p>
+    <div class="button">
+        <a href="/projects/">
+            <button>My projects</button>
+        </a>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="link-images">
+        <a href="https://en.wikipedia.org/wiki/HTML5"><img width="46" height="46" alt="HTML" title="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"/></a>
+        <a href="https://en.wikipedia.org/wiki/CSS"><img width="46" height="46" alt="CSS" title="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"/></a>
+        <a href="https://sass-lang.com/"><img width="46" height="46" alt="Sass" title="Sass" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"/></a>
+        <a href="https://en.wikipedia.org/wiki/JavaScript"><img width="46" height="46" alt="JavaScript" title="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"/></a>
+        <a href="https://tailwindcss.com/"><img width="46" height="46" alt="TailwindCSS" title="TailwindCSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"/></a>
+        <a href="https://getbootstrap.com/"><img width="46" height="46" alt="Bootstrap" title="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"/></a>
+        <a href="https://react.dev/"><img width="46" height="46" alt="React" title="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/></a>
+        <a href="https://vuejs.org/"><img width="46" height="46" alt="VueJS" title="VueJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"/></a>
+        <a href="https://www.php.net/"><img width="46" height="46" alt="PHP" title="PHP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"/></a>
+        <a href="https://symfony.com/"><img width="46" height="46" alt="Symfony" title="Symfony" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg"/></a>
+        <a href="https://www.mysql.com/"><img width="46" height="46" alt="MySQL" title="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/></a>
+        <a href="https://www.postgresql.org/"><img width="46" height="46" alt="PostgreSQL" title="PostgreSQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"/></a>
+    </div>
+
+    <h2>Interests</h2>
+    <p>
+        Consuming way too much media of all kinds: Manga, Comics, Video Games, Books, Movies, Shows...
+    </p>
+    <p>
+        I'm currently preparing the development of a project to backlog all this media consumption into a centralized app, 
+        replacing my current stack of trackers that are often specialized in one media type.
+    </p>
+    <p>
+        It wouldn't be me if I didn't mention that I'm a huge animal lover. 
+        (I love my baby <a href="https://shanks.luigi.moe/" target="_blank">Shanks</a>)
+    </p>
+</Layout>
+
+<style>
+    /* h1 */
+    h1 {
+        margin-bottom: 1%;
+    }
+
+    /* small */
+    small {
+        background-color: #584966;
+        color: #fdebf3;
+        border-radius: 6px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        padding: 0.3em 0.6em 0.2em;
+        margin bottom:;
+    }
+
+    /* socials div */
+    .socials {
+        margin-top: 1%;
+    }
+    /* Button */
+    button {
+        background: rgba(0,0,0,0);
+        border: 2px solid #584966;
+        border-radius: 8px;
+        color: #1e1e2e;
+        font: 600 16px 'Josefin Sans', sans-serif;
+        padding: 8px 16px;
+        transition: background-color 0.4s, color 0.4s;
+    }
+    
+    button:hover {
+        background-color: #584966;
+        color: #fdebf3  ;
+        cursor: pointer;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    /* Skill images */
+    .link-images img {
+        margin: 16px 4px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .link-images img {
+            height: 30px;
+            width: 30px;
+            margin: 16px 1px;
+        }
+    }
+</style>
